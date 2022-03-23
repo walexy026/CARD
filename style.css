@@ -13,13 +13,12 @@ body .nft {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  width: 500px;
+  width: 450px;
   margin: auto;
   padding-top: 100px;
   padding-bottom: 20px;
   margin-top: 50px;
   border-radius: 10px;
-  overflow-y: hidden;
 }
 
 body .nft h3 {
