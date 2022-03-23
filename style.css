@@ -15,10 +15,11 @@ body .nft {
   text-align: center;
   width: 500px;
   margin: auto;
-  padding-top: 130px;
-  padding-bottom: 80px;
-  margin-top: 260px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  margin-top: 50px;
   border-radius: 10px;
+  overflow-y: hidden;
 }
 
 body .nft h3 {
@@ -49,6 +50,12 @@ body .eth .fav {
           align-items: center;
 }
 
+body .eth .fav p {
+  color: #00fff7;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body .eth .left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,6 +70,8 @@ body .eth .left {
 
 body .eth .left p {
   color: #8bacda;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body .btc {
@@ -75,10 +84,14 @@ body .btc {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 20px;
+  gap: 2vw;
 }
 
 body .btc p {
   color: #8bacda;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
 }
 
 body .attribution {
